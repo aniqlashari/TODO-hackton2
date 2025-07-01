@@ -1,0 +1,100 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  color: #8854d0;
+  font-weight: 600;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #8854d0;
+}
+
+.login-btn {
+  padding: 8px 18px;
+  background: #8854d0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-title {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero-title span {
+  font-weight: 700;
+}
+
+.hero-sub {
+  font-weight: 400;
+  margin-top: 0;
+  color: #333;
+}
+
+.hero-desc {
+  margin-top: 10px;
+  color: #444;
+  font-size: 15px;
+}
+
+.discover-btn {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background: #8854d0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.discover-btn span {
+  margin-left: 10px;
+  
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 1050px;
+}

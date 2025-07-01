@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans';
+  text-decoration: none;
+}
+body {
+  background: #fff;
+  color: #111;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.logo {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #3A0CA3;
+}
+.nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #333;
+}
+.btn-login {
+  padding: 0.5rem 1.25rem;
+  background: #6C28A2;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  max-width: 45%;
+}
+.hero-text h2 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+.hero-text h2 span {
+  font-weight: 300;
+}
+.hero-text h3 {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 1.25rem;
+}
+.info-box {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  /* border: 3px solid #FFD700; */
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.btn-discover {
+  padding: 0.75rem 1.5rem;
+  background: #6C28A2;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+.btn-discover .arrow {
+  margin-left: 0.5rem;
+}
+
+/* Hero image */
+.hero-img img {
+  max-width: 500px;
+  width: 100%;
+}
+.login-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #6c28a2;
+}
+
+.nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-login {
+  padding: 0.5rem 1.25rem;
+  background: #6c28a2;
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.required {
+  color: red;
+  font-size: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.login-box input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #f9f9f9;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+}
+
+.register-text {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.register-text a {
+  color: #6c28a2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn {
+  padding: 0.75rem 2rem;
+  background: linear-gradient(to right, #6c28a2, #6a3093);
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Container */
+.register-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header styles */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #6c28a2;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #222;
+}
+
+.btn-login {
+  padding: 0.4rem 1.2rem;
+  background: #6c28a2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Register box */
+.register-box {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.required {
+  color: red;
+  font-size: 1.2rem;
+  margin-left: 4px;
+}
+
+/* Form inputs */
+.form input {
+  width: 100%;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+/* Text below form */
+.register-text {
+  margin: 0.8rem 0;
+  font-size: 0.9rem;
+}
+
+.register-text a {
+  color: #6c28a2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Register button */
+.register-btn {
+  padding: 0.75rem 2rem;
+  background: linear-gradient(to right, #6c28a2, #9b59b6);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f3f3f3;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+  color: purple;
+  margin-bottom: 80px;
+  font-size: 18px;
+}
+
+.sidebar nav p {
+  margin: 0px  0 0 0;
+  margin: top 0;;
+  cursor: pointer;
+  padding:  20px 0 0 10px ;
+  color: #555;
+  height: 50px;
+  width: 150px;
+  align-items: center;
+}
+
+.sidebar nav .activee {
+  color: purple;
+margin-bottom: 10px;
+   background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.logout {
+  margin-top: 320px;
+  color: red;
+  cursor: pointer;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-links span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-links .active {
+  color: purple;
+  top: 0;
+  font-weight: bold;
+  
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.dashboard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.todo-section, .add-task, .progress-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.todo-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-section th, td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.todo-section thead {
+  background: purple;
+  color: white;
+  
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.add-task input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task button {
+  padding: 10px 20px;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.progress-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background: #c0f0d6;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+/* Hover effect for table rows */
+.todo-section tbody tr:hover {
+  background-color: #f2f2f2; /* very light gray */
+  transition: background 0.2s ease;
+}
+.sidebar nav p:hover {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.todo-section {
+  margin-top: 5px; /* reduce top space */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.dashboard {
+  padding-top: 5px; /* was probably 20px before */
+}
+/* Strike-through text in the row when radio is checked */
+.todo-section tbody tr:has(input[type="radio"]:checked) td {
+  text-decoration: line-through;
+  color: gray;
+}
+.dashboard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 5px;
+}
+
+.todo-section, .add-task, .progress-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.todo-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-section th, td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.todo-section thead {
+  background: purple;
+  color: white;
+}
+
+.todo-section tbody tr:hover {
+  background-color: #f2f2f2;
+  transition: background 0.2s ease;
+}
+
+.todo-section tbody tr:has(input[type="radio"]:checked) td {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.add-task input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task button {
+  padding: 10px 20px;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-btn {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-btn.update {
+  background-color: orange;
+  color: white;
+}
+
+.action-btn.delete {
+  background-color: red;
+  color: white;
+}
+
+.progress-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background: #c0f0d6;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+nav .active{
+  margin: 0;
+  padding: 0;
+}
