@@ -15,14 +15,14 @@ function profile() {
 
   // Load tasks from backend
   useEffect(() => {
-    axios.get('http://localhost:3001/tasks').then(res => setTasks(res.data));
+    axios.get('https://todo-hackton1.vercel.app/tasks').then(res => setTasks(res.data));
   }, []);
 
   const addTask = async () => {
     if (!title || !description) return;
 
     if (editingId) {
-      const res = await axios.put(`http://localhost:3001/tasks/${editingId}`, {
+      const res = await axios.put(`https://todo-hackton1.vercel.app/tasks/${editingId}`, {
         title,
         description,
       });
@@ -38,7 +38,7 @@ function profile() {
         timerProgressBar: true,
       });
     } else {
-      const res = await axios.post('http://localhost:3001/tasks', { title, description });
+      const res = await axios.post('https://todo-hackton1.vercel.app/tasks', { title, description });
       setTasks([...tasks, res.data]);
       Swal.fire({
         toast: true,
@@ -56,7 +56,7 @@ function profile() {
   };
 
   const deleteTask = async (id) => {
-    await axios.delete(`http://localhost:3001/tasks/${id}`);
+    await axios.delete(`https://todo-hackton1.vercel.app/tasks/${id}`);
     setTasks(tasks.filter(task => task._id !== id));
   };
 

@@ -15,7 +15,7 @@ function todo() {
   const [password, setPassword] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:3001/user').then((res) => {
+    axios.get('https://todo-hackton1.vercel.app/user').then((res) => {
       if (res.data) {
         setUser(res.data);
         setName(res.data.name);
@@ -32,7 +32,7 @@ function todo() {
 
   const handleUpdate = () => {
     axios
-      .put('http://localhost:3001/user', {
+      .put('https://todo-hackton1.vercel.app/user', {
         name,
         email,
         password,
